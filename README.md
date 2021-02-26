@@ -1,7 +1,7 @@
 # TS React Project for sharing Components
 
-
-
+- Bit.dev 를 사용해 프로젝트간 컴포넌트 공유를 위함!
+- 컴포넌트 제작시 Storybook 이용 => Bit.dev를 통해 공유
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

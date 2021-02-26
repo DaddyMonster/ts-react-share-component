@@ -29,6 +29,6 @@
     @apply font-text;
   }
   span {
-    @apply font-text;
+    @apply font-guide;
   }
 }

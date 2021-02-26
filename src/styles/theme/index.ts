@@ -1,5 +1,6 @@
 import { createMuiTheme, Theme } from "@material-ui/core";
 import customPalatte from "./palette.override";
+import typoOptions from "./typo.override";
 
 declare module "@material-ui/core/styles/createMuiTheme" {
   interface Theme {}
@@ -10,11 +11,8 @@ declare module "styled-components" {
 }
 
 const defaultTheme = createMuiTheme({
-  // OVERRIDE WHAT YOU WANT HERE
   palette: customPalatte,
-/*   typography: {
-    button: { fontFamily: "'GmarketSansMedium', 'Roboto'" },
-  }, */
+  typography: { fontFam: typoOptions, fontFamily: typoOptions.logo },
 });
 
 export default defaultTheme;
